@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/wallView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#90B5D3"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="-96dp">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+            android:background="#292627"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text="CHANGE WALLPAPER APPLICATION"
+            android:textColor="#F8F4F4"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50sp"
+            android:layout_marginLeft="50sp"
+            android:layout_marginTop="100sp"
+            android:layout_marginEnd="50sp"
+            android:layout_marginRight="50sp"
+            android:text="change wallpaper"
+            app:backgroundTint="#231F1F" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
